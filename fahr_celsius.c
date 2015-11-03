@@ -11,6 +11,7 @@ void main(){
     step = 20;                    /*  步长  */
 
     fahr = lower;
+    printf("华氏温度与摄氏温度对照表\n");
     while(fahr <= upper){
         celsius = (5.0 / 9.0) * (fahr - 32);
         printf("%3.0f\t%6.1f\n", fahr, celsius);
